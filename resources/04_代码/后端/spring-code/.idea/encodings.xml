@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dmybatis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-auto-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-config-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-create-manual/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-create-manual/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-profiles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-regist/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-register/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    group:
+      "dev": devServer,devDB,devSelf
+      #"test": testServer,testDB,testSelf
+    active: dev

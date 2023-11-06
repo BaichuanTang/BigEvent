@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+
+        手链价格为:  <span v-if="customer.level>=0 && customer.level<=1">9.9</span>  
+                    <span v-else-if="customer.level>=2 && customer.level<=4">19.9</span> 
+                    <span v-else>29.9</span>
+
+        <br/>
+        手链价格为:  <span v-show="customer.level>=0 && customer.level<=1">9.9</span>  
+                    <span v-show="customer.level>=2 && customer.level<=4">19.9</span> 
+                    <span v-show="customer.level>=5">29.9</span>
+
+    </div>
+
+    <script type="module">
+        //导入vue模块
+        import { createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+        //创建vue应用实例
+        createApp({
+            data() {
+                return {
+                    customer:{
+                        name:'张三',
+                        level:2
+                    }
+                }
+            }
+        }).mount("#app")//控制html元素
+    </script>
+</body>
+
+</html>

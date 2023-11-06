@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+
+        文章分类: <input type="text" />
+
+        发布状态: <input type="text" />
+
+        <button>搜索</button>
+
+        <br />
+        <br />
+        <table border="1 solid" colspa="0" cellspacing="0">
+            <tr>
+                <th>文章标题</th>
+                <th>分类</th>
+                <th>发表时间</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            <tr v-for="(article,index) in articleList">
+                <td>{{article.title}}</td>
+                <td>{{article.category}}</td>
+                <td>{{article.time}}</td>
+                <td>{{article.state}}</td>
+                <td>
+                    <button>编辑</button>
+                    <button>删除</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="module">
+        //导入vue模块
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+        //创建vue应用实例
+        createApp({
+            data() {
+                return {
+                    //定义数据
+                    articleList: [{
+                        title: "医疗反腐绝非砍医护收入",
+                        category: "时事",
+                        time: "2023-09-5",
+                        state: "已发布"
+                    },
+                    {
+                        title: "中国男篮缘何一败涂地？",
+                        category: "篮球",
+                        time: "2023-09-5",
+                        state: "草稿"
+                    },
+                    {
+                        title: "华山景区已受大风影响阵风达7-8级，未来24小时将持续",
+                        category: "旅游",
+                        time: "2023-09-5",
+                        state: "已发布"
+                    }]
+                }
+            }
+
+        }).mount("#app")//控制html元素
+    </script>
+</body>
+
+</html>

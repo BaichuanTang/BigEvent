@@ -1,0 +1,13 @@
+#发件人相关的信息
+email:
+  user: 593140521@qq.com
+  code: jfejwezhcrzcbbbb
+  host: smtp.qq.com
+  auth: true
+
+
+#学生的爱好
+hobbies:
+  - 打篮球
+  - 打豆豆
+  - 打游戏

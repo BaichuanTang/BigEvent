@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:\Users\Administrator\Desktop\资料\03_自动配置\common-pojo-2.0-SNAPSHOT.jar -DgroupId=cn.itcast -DartifactId=common-pojo -Dversion=2.0 -Dpackaging=jar

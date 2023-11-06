@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:\Users\Administrator\Desktop\资料\02_Bean注册资料\common-pojo-1.0-SNAPSHOT.jar -DgroupId=cn.itcast -DartifactId=common-pojo -Dversion=1.0 -Dpackaging=jar
