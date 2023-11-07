@@ -1,7 +1,7 @@
 import axios from "axios";
 import {ElMessage} from "element-plus";
 import {useTokenStore} from "@/stores/token";
-// import router from "@/router";
+import router from "@/router";
 
 const instance = axios.create({baseURL: '/api'});
 
@@ -19,7 +19,6 @@ instance.interceptors.request.use(
     }
 )
 
-
 instance.interceptors.response.use(
     result => {
       if (result.data.code === 0) {
@@ -33,8 +32,7 @@ instance.interceptors.response.use(
       if (error.response.status === 401) {
         ElMessage.error("请先登录")
         // Have problems here
-        // router.push('/login')
-        // TODO 有bug
+        router.push('/login')
       } else {
         ElMessage.error('服务异常')
       }

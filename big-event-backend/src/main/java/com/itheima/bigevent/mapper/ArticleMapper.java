@@ -22,7 +22,7 @@ public interface ArticleMapper {
     @Select("select * from article where id=#{id}")
     Article findById(final Integer id);
 
-    @Update("update article set title=#{title},content=#{content},cover_img=#{cover_img},state=#{state},category_id=#{category_id},update_time=now() where id=#{id}")
+    @Update("update article set title=#{title},content=#{content},cover_img=#{coverImg},state=#{state},category_id=#{categoryId},update_time=now() where id=#{id}")
     void update(final Article article);
 
     @Delete("delete from article where id=#{id}")

@@ -115,12 +115,6 @@ const deleteCategory = (row) => {
         await articleCategoryList()
       }
   )
-
-  categoryModel.value = {
-    categoryName: row.categoryName,
-    categoryAlias: row.categoryAlias,
-    id: row.id
-  }
 }
 </script>
 <template>

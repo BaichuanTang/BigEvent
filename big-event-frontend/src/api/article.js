@@ -15,3 +15,20 @@ export const articleCategoryUpdateService = (categoryData) => {
 export const articleCategoryDeleteService = (id) => {
   return request.delete('/category?id=' + id)
 }
+
+export const articleListService = (params) => {
+  return request.get('/article', {params})
+}
+
+export const articleAddService = (articleData) => {
+  return request.post('/article', articleData)
+}
+
+export const articleUpdateService = (articleData) => {
+  return request.put('/article', articleData)
+}
+
+export const articleDeleteService = (id) => {
+  return request.delete('/article?id=' + id)
+}
+
