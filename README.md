@@ -21,7 +21,7 @@
 ## 项目组成
 
 - **前端项目**：[big-event-frontend](https://github.com/BaichuanTang/BigEvent/tree/main/big-event-frontend)
-- **后端项目**：[big-event-backend]([#](https://github.com/BaichuanTang/BigEvent/tree/main/big-event-backend))
+- **后端项目**：[big-event-backend](https://github.com/BaichuanTang/BigEvent/tree/main/big-event-backend)
 
 ## 点评视频
 
@@ -48,3 +48,5 @@
 ---
 
 感谢黑马程序员的这个项目，让我在实战中学习到了前后端开发的关键技能，并对我未来的工作和学习打下了坚实的基础。
+
+
