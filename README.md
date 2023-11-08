@@ -50,3 +50,10 @@
 感谢黑马程序员的这个项目，让我在实战中学习到了前后端开发的关键技能，并对我未来的工作和学习打下了坚实的基础。
 
 
+如果你喜欢我的项目，可以通过买杯咖啡来支持我！
+
+<img src="https://github.com/BaichuanTang/BigEvent/assets/49247519/2664c5b2-e29f-459d-99cd-52ca0a883186" alt="Support Me" width="300"/>
+
+
+
+
