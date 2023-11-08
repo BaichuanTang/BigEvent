@@ -1,6 +1,6 @@
 # BigEvent
  黑马程序员大事件Springboot3+vue3项目
- 
+- 点评视频： https://www.bilibili.com/video/BV1Ga4y1S7jc/
 - 前端：big-event-frontend
 - 后端：big-event-backend
 
