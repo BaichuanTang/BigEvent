@@ -29,3 +29,8 @@ export const userAvatarUpdateService = (avatarUrl) => {
   urlSearchParams.append('avatarUrl', avatarUrl)
   return request.patch('/user/updateAvatar', urlSearchParams)
 }
+
+export const userPwdUpdateService = (pwdData) => {
+  return request.patch('/user/updatePwd', pwdData)
+}
+
